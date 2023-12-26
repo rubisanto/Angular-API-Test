@@ -10,8 +10,8 @@ import { SharedService } from '../shared.service';
   styleUrl: './rendu-case.component.scss',
 })
 export class RenduCaseComponent {
-  buttonText: string = '';
+  buttonText: string = 'Ceci est un test';
   constructor(private sharedService: SharedService) {
-    this.buttonText = this.sharedService.getButtonText();
+    // this.buttonText = this.sharedService.getButtonText();
   }
 }
