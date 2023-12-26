@@ -1,1 +1,16 @@
+<div>
+  <h1>Page principale</h1>
+  <div class="button-row">
+    <app-button
+      class="button"
+      [buttonText]="'Bouton 1'"
+      (buttonClick)="onButton1Click()"
+    ></app-button>
+    <app-button
+      class="button"
+      [buttonText]="'Bouton 2'"
+      (buttonClick)="onButton2Click()"
+    ></app-button>
+  </div>
+</div>
 <router-outlet></router-outlet>
