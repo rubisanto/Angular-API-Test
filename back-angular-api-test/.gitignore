@@ -1,0 +1,8 @@
+# Ignore les fichiers de configuration spécifiques à votre environnement (ex : .env)
+.env
+
+# Ignore les fichiers de journaux
+logs/
+
+# Ignore les modules Node.js installés
+node_modules/
