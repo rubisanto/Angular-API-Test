@@ -3,11 +3,18 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { ButtonComponent } from './button/button.component';
+import { RenduCaseComponent } from './rendu-case/rendu-case.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, MatButtonModule, ButtonComponent],
+  imports: [
+    CommonModule,
+    RouterOutlet,
+    MatButtonModule,
+    ButtonComponent,
+    RenduCaseComponent,
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
